@@ -1,0 +1,30 @@
+{
+	"name": "isabelle",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "turbo dev",
+		"build": "turbo build",
+		"check": "turbo check",
+		"format": "prettier --write .",
+		"lint": "turbo lint",
+		"test": "turbo test",
+		"update-deps": "ncu -uis --format group --install always --workspaces --root"
+	},
+	"devDependencies": {
+		"npm-check-updates": "^17.1.15",
+		"prettier": "^3.5.3",
+		"prettier-plugin-svelte": "^3.3.3",
+		"prettier-plugin-tailwindcss": "^0.6.11",
+		"turbo": "^2.4.4"
+	},
+	"engines": {
+		"node": "22.14.0"
+	},
+	"packageManager": "pnpm@10.6.3",
+	"volta": {
+		"node": "22.14.0",
+		"pnpm": "10.6.3"
+	}
+}

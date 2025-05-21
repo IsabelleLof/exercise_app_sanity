@@ -1,1 +1,0 @@
-# exercise_app_sanity
